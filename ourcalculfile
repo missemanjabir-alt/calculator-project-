@@ -1,18 +1,7 @@
 def add(x, y):
     return x + y
 
-    else:
-        return "Error: Division by zero"
-
-def calculator():
-    num1 = float(input("Enter first number: "))
-    operator = input("Enter operator (+): ")
-    num2 = float(input("Enter second number: "))
-
-    if operator == '+':
-        print("Result:", add(num1, num2))
-   
-    else:
-        print("Invalid operator")
-
-calculator()
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+result = add(x, y)
+print("Result:", result)
